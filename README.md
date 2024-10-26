@@ -56,3 +56,7 @@ Total quantities of specific products based on custom criteria were calculated, 
 Average cost analysis for multiple years provided insights into historical pricing trends.
 
 Conditional validation logic enabled easy classification based on year, cost, and product status.
+
+
+## Conclusion:
+The project demonstrated the value of utilizing Excel formulas for efficient data analysis. With the application of conditional formatting, SUMIF, AVERAGEIF, and IF logic, the data became clearer and more actionable. These techniques were essential for identifying cost patterns, validating records, and streamlining product classification based on specific criteria.
