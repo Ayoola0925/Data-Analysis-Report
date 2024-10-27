@@ -1,7 +1,8 @@
 #### PRODUCT DATA ANALYSIS
 
+![Product Data](https://github.com/user-attachments/assets/dea88761-7c72-4f10-8b16-350ae46f176e)
 
-![Product Data](https://github.com/user-attachments/assets/68c44213-f00d-4423-8638-879f2ac3613e)
+
 
 ## Objective:
 
@@ -45,7 +46,7 @@ Cost >= 15,000
   
 Method:
 Used a Nested IF formula:
-=IF(B2<2020, "YES", IF(C2>=15000, "YES", IF(OR(D2="PROMO", D2="EXTRA"), "YES", "-")))
+=IF(AND(B2<2020, C2>=15000, OR(D2="PROMO", D2="Excess Extra")), "YES", "-")
 
 ## Summary of Key Insights:
 
